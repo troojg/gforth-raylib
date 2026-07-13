@@ -1238,3 +1238,6 @@ end-c-library
 
 \ include color constants
 require raylib-colors.fs
+
+\ include helpers
+require raylib-helpers.fs
