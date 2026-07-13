@@ -1,0 +1,7 @@
+#+title: Readme
+* Raylib 6 bindings for gforth
+
+This is my attempt at raylib 6 bindings 🙂 Shoutout to [[https://github.com/ArnautDaniel/gforth-raylib/tree/master][the original bindings]], which were super helpful in figuring out how to get this working. As of right now, I'm not sure if they're /actually/ working, but at least the first example works. This repo includes ~raylib.h~, because 1) I'm not sure yet how to use the one installed on my system instead (which is where I sourced it from) and 2) I had to comment out a line that was causing errors in gforth.
+
+Enjoy, and remember that I don't know what I'm doing!
+

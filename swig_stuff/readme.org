@@ -1,0 +1,9 @@
+#+title: Readme
+* Generating bindings with SWIG 
+
+When building and installing gforth, it includes ~install-swig.sh~. This installs a fork of SWIG that can create Forth bindings into your gforth folder. I didn't create a bash alias to easily access this command, instead writing out the path, so bear that in mind in the examples below. Also bear in mind I had ~raylib.h~ in the same folder as ~raylib.i~ at the time.
+
+I used the instructions from the [[https://net2o.de/gforth/Automated-interface-generation-using-SWIG.html][gforth manual]], and compared my results with the [[https://github.com/ArnautDaniel/gforth-raylib/tree/master][Raylib 3 bindings]].
+
+Of the files I've included in this folder, all you need to create your own raylib bindings is ~raylib.i~. Following the instructions from the manual, you'll wind up with ~raylib.fs~. I then modified this until gforth stopped giving me errors. 
+
