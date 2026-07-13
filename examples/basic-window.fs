@@ -1,5 +1,4 @@
 require ../raylib.fs
-require ../raylib-colors.fs
 
 \ This is the Basic Window example, more or less
 

@@ -1235,3 +1235,6 @@ c-function DetachAudioMixedProcessor DetachAudioMixedProcessor a -- void	( proce
 
 \ ----===< postfix >===-----
 end-c-library
+
+\ include color constants
+require raylib-colors.fs
