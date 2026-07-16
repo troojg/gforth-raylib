@@ -1,7 +1,8 @@
 require raylib.fs
 
 
-\ Copied from ArnautDaniel's raylib 3 bindings. Thanks!
+\ Borrowed from ArnautDaniel's raylib 3 bindings, with some
+\ modifications. Thanks!
 \ Example helpers for moving data from the stack to structures
 \ or back.  Will add more as I need them.
 
@@ -11,7 +12,7 @@ require raylib.fs
 
 : >Vector2 ( f: -- x y -- Vector2 )
     Vector2 allocate throw
-    dup dup sf! Vector2-y sf! ;
+    dup dup Vector2-y sf! sf! ;
 
 : >Vector3 ( f: -- x y z -- Vector3 )
     Vector3 allocate throw { Vec3 }
