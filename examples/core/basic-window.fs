@@ -1,4 +1,4 @@
-require ../raylib.fs
+require ../../raylib.fs
 
 \ This is the Basic Window example, more or less
 

@@ -1,4 +1,4 @@
-require ../raylib.fs
+require ../../raylib.fs
 
 800 Constant screenWidth
 450 Constant screenHeight
