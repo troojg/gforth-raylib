@@ -75,8 +75,6 @@ require ../../raylib.fs
 
 : game-loop ( -- )
     begin
-        \ TODO there's a float stack overflow if you
-        \ take the FPS to 0 ( unlimited FPS )
         GetMouseWheelMove \ leaves a float on the stack
         fdup f0<> if
             \ increment or decrement the currentFPS by
@@ -87,6 +85,8 @@ require ../../raylib.fs
                 0 to currentFPS
             then
             currentFPS SetTargetFPS
+        else
+            fdrop
         then
 
         \ we get the frame time and multiply by 6 to try
@@ -141,3 +141,4 @@ require ../../raylib.fs
     ;
 
 main
+bye

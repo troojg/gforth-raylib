@@ -19,3 +19,4 @@ require ../../raylib.fs
 ;
 
 start-test
+bye
